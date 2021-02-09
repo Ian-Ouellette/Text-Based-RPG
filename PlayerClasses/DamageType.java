@@ -5,5 +5,6 @@ public enum DamageType {
     MAGICAL,
     ELEMENTAL,
     POISON,
-    HOLY;
+    HOLY,
+    NONE;
 }
