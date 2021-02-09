@@ -16,4 +16,8 @@ public class Wizard extends Player{
             return new Attack("Defeated", hits, DamageType.NONE);
         }
     }
+
+    public Spell castFireball(){
+        if (this.currentMana > 100)
+    }
 }
