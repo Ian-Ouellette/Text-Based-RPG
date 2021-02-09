@@ -1,0 +1,24 @@
+Player - 
+    name
+    maxHP
+    currentHP
+    maxMana
+    currentMana
+    isBurned
+    isPoisoned
+    
+    attack
+    takeDamage
+    heal
+    isAlive
+    castSpell
+
+Attack - 
+    name
+    damagePerHit
+    damageType
+
+Spell - 
+    name
+    cost
+    effect
