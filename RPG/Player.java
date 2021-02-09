@@ -1,4 +1,4 @@
-package PlayerClasses;
+package RPG;
 
 public class Player {
     private final String name;
@@ -55,7 +55,7 @@ public class Player {
         currentMana = currentMana < maxMana ? currentMana : maxMana;
     }
 
-    public void castSpell(Spells.Spell spell) {
+    public void castSpell(Spell spell) {
         if (currentMana > spell.getCost()) {
             currentMana -= spell.getCost();
         }

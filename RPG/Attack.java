@@ -1,4 +1,4 @@
-package PlayerClasses;
+package RPG;
 
 public class Attack {
     private final String name;

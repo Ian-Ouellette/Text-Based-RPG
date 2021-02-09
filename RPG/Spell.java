@@ -1,4 +1,4 @@
-package Spells;
+package RPG;
 
 public class Spell {
     private final String name;
@@ -11,7 +11,7 @@ public class Spell {
         this.cost = cost;
     }
 
-    public int castSpell(){
+    public int castSpell(RPG.Player target, int cost){
         return cost;
     }
 

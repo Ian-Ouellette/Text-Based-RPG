@@ -1,4 +1,4 @@
-package PlayerClasses;
+package RPG;
 
 public class Wizard extends Player{
     public Wizard(String name){

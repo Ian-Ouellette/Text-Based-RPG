@@ -1,4 +1,4 @@
-package PlayerClasses;
+package RPG;
 
 public enum DamageType {
     PHYSICAL,
